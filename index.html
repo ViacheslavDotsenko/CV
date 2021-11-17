@@ -12,7 +12,7 @@
     <body class="body" id="body">
         <style>
             body {
-             background: url(fon-dlya-saita.png) ;
+             background: url(img/fon-dlya-saita.png) ;
              -moz-background-size: 100%; 
              -webkit-background-size: 100%; 
              -o-background-size: 100%; 
@@ -38,7 +38,7 @@
 
        <div class="aboutme">
         <figure class="foto">
-            <img src="photo_2021-11-15_21-07-33.jpg" alt="мое фото" title="Вітаю ">
+            <img src="img/photo_2021-11-15_21-07-33.jpg" alt="мое фото" title="Вітаю ">
             <figcaption>Доценко Вячеслав<br>18.07.1986 р.н</figcaption>
         </figure>
         <br>
@@ -85,6 +85,7 @@
     </footer>
        <script type="text/javascript"> document.getElementById("javaScript").onclick = function (){
         let name =  prompt("Введіть імя");
+        if (name ===""){name = "Hello"};
         alert( `${name}, Дякую що переглянули резюме!!!`);}
         </script>
         <noscript>
