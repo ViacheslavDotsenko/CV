@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Open+Sans:ital@1&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    
+}
+
+.navi{
+    width: 100%;
+    margin: 0px, auto;
+    background:  #333333;
+    /* position: absolute; */
+    text-transform: uppercase;    
+    height: 70px;      
+    overflow: hidden;
+    }
+.navi ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 5%;
+    float: left;
+}
+.navi ul li{
+    position: relative;
+    left: 5%;
+    float: left;
+    margin: 0 10px;
+    height: 70px;
+    text-decoration: none;
+}
+.navi ul li a{
+    padding: 25px 25px 40px 40px;
+    float: left;
+    color: white;
+    display: block;
+    text-align: center; 
+    text-decoration: none;
+    transition: 0.7s;
+}
+.navi ul li a:hover{
+    color: blue;
+    text-shadow:0 0 10px rgb(22, 93, 247);    
+}
+.navi h1{
+    font-size: 40px;   
+}
+.order{
+    transition: 0.8s;
+    float: right;
+    margin: 25px 30px;
+}
+.order:hover{
+    box-shadow: 0 0 20px rgb(195, 205, 236);
+}
+.foto img {
+    max-width: 150px;
+    max-height: 170px;
+    box-shadow: 0 0 20px blue;
+    border-radius: 10px; 
+    margin: 20px 30px;
+    transition: 0.8s;
+}
+.foto img:hover{
+    transform: scale(1.2);
+    /* max-height: 200px;
+    max-width: 180px; */
+    box-shadow: 0 0 30px blue;
+    color:rgb(3, 53, 148) ;
+}
+.foto figcaption{
+    color: rgb(30, 85, 187);
+    margin-left: 30px;
+    font-size: 20px;
+}
+.aboutme{
+    max-width: 250px;
+    height: auto;
+    color: white;
+    padding: 20px;
+}
+.article{
+       max-width: 100%;
+    max-height: 100%;
+    margin-left: 290px;
+    margin-top: 0px;   
+}
+.article h1{
+    font-family: 'Open Sans', sans-serif;
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    margin-block-start: -600px;
+}
+.article h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: yellow;
+    padding: 30px 0 10px 30px;
+}
+.article p{
+    font-family: 'Open Sans', sans-serif;
+    color: yellow;
+    padding: 10px 0 0 30px;
+}
+.article ul{
+    font-family: 'Open Sans', sans-serif;
+    color: yellow;
+    padding-left: 40px;
+}
+.address{
+    margin: 10px 0 0 290px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.address p{
+    color: yellowgreen;
+}
+.copiright{
+    height: 70px;
+    margin: 20px 0 0 290px;   
+}
+.copiright p {
+    padding: 20px 0 0 0;
+    text-align: center;
+    color: whitesmoke;
+}
